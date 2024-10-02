@@ -1,0 +1,155 @@
+[control-center]
+last-panel='bluetooth'
+window-state=(980, 640, false)
+
+[deja-dup]
+backend='google'
+prompt-check='2024-09-30T23:19:42.464818Z'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/ubuntu2_by_arman1992.jpg'
+picture-uri-dark='file:///usr/share/backgrounds/ubuntu2_by_arman1992.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/input-sources]
+sources=[('xkb', 'pl')]
+
+[desktop/interface]
+color-scheme='prefer-dark'
+enable-hot-corners=false
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+toolkit-accessibility=false
+
+[desktop/notifications]
+application-children=['firefox-firefox', 'io-snapcraft-sessionagent', 'org-gnome-dejadup', 'google-chrome', 'spotify-spotify', 'org-gnome-settings', 'azuredatastudio']
+
+[desktop/notifications/application/azuredatastudio]
+application-id='azuredatastudio.desktop'
+
+[desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[desktop/notifications/application/google-chrome]
+application-id='google-chrome.desktop'
+
+[desktop/notifications/application/io-snapcraft-sessionagent]
+application-id='io.snapcraft.SessionAgent.desktop'
+
+[desktop/notifications/application/org-gnome-dejadup]
+application-id='org.gnome.DejaDup.desktop'
+
+[desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[desktop/notifications/application/spotify-spotify]
+application-id='spotify_spotify.desktop'
+
+[desktop/peripherals/mouse]
+accel-profile='flat'
+speed=0.0
+
+[desktop/peripherals/touchpad]
+two-finger-scrolling-enabled=true
+
+[desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/ubuntu2_by_arman1992.jpg'
+primary-color='#000000'
+secondary-color='#000000'
+
+[desktop/wm/keybindings]
+maximize=@as []
+unmaximize=@as []
+
+[desktop/wm/preferences]
+num-workspaces=2
+
+[evolution-data-server]
+migrated=true
+
+[gedit/preferences/editor]
+scheme='Yaru-dark'
+
+[mutter]
+dynamic-workspaces=false
+edge-tiling=false
+experimental-features=@as []
+workspaces-only-on-primary=false
+
+[mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[nautilus/window-state]
+initial-size=(890, 550)
+maximized=true
+
+[portal/filechooser/google-chrome]
+last-folder-path='/home/jgrenz/Downloads'
+
+[settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[shell]
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+favorite-apps=['org.gnome.Terminal.desktop', 'google-chrome.desktop', 'org.keepassxc.KeePassXC.desktop', 'azuredatastudio.desktop', 'notepad-plus-plus_notepad-plus-plus.desktop', 'org.gnome.Nautilus.desktop', 'spotify_spotify.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='46.0'
+
+[shell/extensions/dash-to-dock]
+dash-max-icon-size=32
+dock-position='BOTTOM'
+extend-height=true
+multi-monitor=true
+show-mounts-network=false
+show-mounts-only-mounted=true
+show-trash=true
+
+[shell/extensions/ding]
+check-x11wayland=true
+
+[shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.desktop.wm.keybindings.maximize': <@mb nothing>, 'org.gnome.desktop.wm.keybindings.unmaximize': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+tiling-popup-all-workspace=true
+
+[shell/keybindings]
+toggle-message-tray=@as []
+
+[shell/world-clocks]
+locations=@av []
+
+[software]
+check-timestamp=int64 1727898576
+update-notification-timestamp=int64 1727898577
