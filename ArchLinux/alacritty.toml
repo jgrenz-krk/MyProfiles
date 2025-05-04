@@ -1,0 +1,20 @@
+[terminal.shell]
+program = "/usr/bin/fish"
+args = ["--login"]
+
+[window]
+opacity = 0.9
+decorations = "full"
+startup_mode = "Maximized"
+
+[[keyboard.bindings]]
+key = "V"
+mods = "Control"
+action = "Paste"
+
+[[keyboard.bindings]]
+key = "C"
+mods = "Control"
+action = "Copy"
+
+[terminal]
