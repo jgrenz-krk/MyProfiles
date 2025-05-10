@@ -10,6 +10,8 @@
 - Mocking data is only needed for tests; never mock data for dev or prod.
 - Never add stubbing or fake data patterns to code that affects the dev or prod environments.
 - Never overwrite my .env file without first asking and confirming.
+- Don't change versions of packages if not explitly asked 
+- Always try to use existing current dependencies before adding new ones
 
 # Technical stack
 - C# for backend
