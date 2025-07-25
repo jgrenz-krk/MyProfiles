@@ -1,3 +1,5 @@
+# Static table lookup for hostnames.
+# See hosts(5) for details.
 127.0.0.1	localhost
 127.0.0.1	jgrenz-System-Product-Name
 127.0.0.1	www.youtube.com
@@ -15,6 +17,16 @@
 127.0.0.1	pornhub.com
 127.0.0.1	jbzd.com.pl
 127.0.0.1	www.jbzd.com.pl
+127.0.0.1	x.com
+127.0.0.1	www.x.com
+127.0.0.1	www.pathofexile.com
+127.0.0.1	poe.ninja
+127.0.0.1	poedb.tw
+127.0.0.1 	www.linkedin.com
+127.0.0.1	linkedin.com
+127.0.0.1	www.tradingview.com
+127.0.0.1	tradingview.com
+
 
 
 

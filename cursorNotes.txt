@@ -1,4 +1,4 @@
-# Coding Pattern Preferences 
+# Coding Pattern Preferences
 - Always prefer simple solutions.
 - Avoid duplication of code whenever possible, which means checking for other areas of the codebase that might already have similar code and functionality.
 - Write code that takes into account the different environments: dev, test, and prod.
@@ -12,6 +12,12 @@
 - Never overwrite my .env file without first asking and confirming.
 - Don't change versions of packages if not explitly asked 
 - Always try to use existing current dependencies before adding new ones
+- In case of creating a new project always send me a commends that are going to initialize it, instead of creating an files from scratch
+- In case of adding new folders/files please update PROJECT_SCHEMA.md located in the root folder to reflect changes in project structure
+- Always use materialui in case of frontend compoennts whenever possible
+- Frontend needs to support mobile and desktop
+- In case of styling please add it within tsx files
+- Please allways add an interface to the same class as the class which implements it
 
 # Technical stack
 - C# for backend
